@@ -1,2 +1,44 @@
-*.ipynb_checkpoints
-**/.ipynb_checkpoints/*
+```gitignore
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Build/dist directories
+dist/
+build/
+target/
+
+# Python virtual environments
+venv/
+.venv/
+.env/
+
+# Test and cache directories
+.pytest_cache/
+.mypy_cache/
+*.pytest_cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
